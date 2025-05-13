@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bien Aimé Fashion</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0;
+      }
+      .contact-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #111;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        margin-top: 15px;
+        font-weight: bold;
+      }
+      input,
+      textarea {
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+      button {
+        margin-top: 20px;
+        padding: 12px;
+        background-color: #111;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">FASHION</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="our service.html">Service</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Bien Aimé fashion style</h1>
+          <p>
+            A creative experience offering a mix of trending, fashionable, and
+            high-quality wearables for every style.
+          </p>
+          <button style="border-radius: 30%;">Discover More</button>
+        </div>
+
+        <div class="hero-images">
+          <img src="image/img1.jpg" alt="Fashion 1" />
+          <img src="image/img2.jpg" alt="Fashion2 " />
+          <img src="image/img3.jpg" alt="Fashion 3" />
+        </div>
+      </div>
+    </header>
+
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <form action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-contact">
+        <p><img src="image/phone.png" /> +250 7888 888 88</p>
+        <p><img src="image/email.png" /> support@bienaime.com</p>
+      </div>
+      <div class="footer-social">
+        <p><img src="image/facebook.jpeg" /> /bienaime.style</p>
+        <p><img src="image/instagram.jpeg" /> @bienaime.style</p>
+      </div>
+      <div class="footer-social">
+        <p><img src="image/facebook.jpeg" />seph@250</p>
+        <p><img src="image/instagram.jpeg" /> @seph12</p>
+        <p><img src="image/phone.png" /> +250 788843080</p>
+      </div>
+    </footer>
+  </body>
+</html>

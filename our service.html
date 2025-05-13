@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bien Aimé Fashion</title>
+    <link rel="stylesheet" href="styles.css" />
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+    .services-section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #111;
+      margin-bottom: 30px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      background-color: #eaeaea;
+    }
+    .service-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    .service-description {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">FASHION</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="our service.html">Service</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Bien Aimé fashion style</h1>
+          <p>
+            A creative experience offering a mix of trending, fashionable, and
+            high-quality wearables for every style.
+          </p>
+          <button style="border-radius: 30%;">Discover More</button>
+        </div>
+
+        <div class="hero-images">
+          <img src="image/img1.jpg" alt="Fashion 1" />
+          <img src="image/img2.jpg" alt="Fashion2 " />
+          <img src="image/img3.jpg" alt="Fashion 3" />
+        </div>
+      </div>
+    </header>
+
+   
+  <div class="services-section">
+    <h1>Our Services</h1>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-title">We Sell Clothes</div>
+        <div class="service-description">
+          You can buy nice clothes for men, women, and kids. They are good quality and low price.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-title">We Rent Clothes</div>
+        <div class="service-description">
+          You can rent clothes for parties, weddings, or photos. Wear them and return later.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-title">We Help with Style</div>
+        <div class="service-description">
+          Not sure what to wear? We help you choose clothes that look good on you.
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <footer>
+      <div class="footer-contact">
+        <p><img src="image/phone.png" /> +250 7888 888 88</p>
+        <p><img src="image/email.png" /> support@bienaime.com</p>
+      </div>
+      <div class="footer-social">
+        <p><img src="image/facebook.jpeg" /> /bienaime.style</p>
+        <p><img src="image/instagram.jpeg" /> @bienaime.style</p>
+      </div>
+      <div class="footer-social">
+        <p><img src="image/facebook.jpeg" />seph@250</p>
+        <p><img src="image/instagram.jpeg" /> @seph12</p>
+        <p><img src="image/phone.png" /> +250 788843080</p>
+      </div>
+    </footer>
+  </body>
+</html>

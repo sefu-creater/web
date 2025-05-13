@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  justify-content: flex-end;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  padding: 13em 1px;
+  background-color: #4f4f4f;
+  color: white;
+  display: flex;
+  gap: 2em;
+}
+
+.hero-text {
+  min-width: 250px;
+  margin-left: 5em;
+}
+.hero-text p {
+  width: 70%;
+}
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #4f4f4f;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-images {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  column-gap: 2em;
+  grid-column:2;
+}
+.p-right{
+  grid-column: 2;
+  justify-items:start;
+}
+.hero-images img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.department {
+  position: relative;
+  padding: 50px;
+  background: url("image/img5.jpg") no-repeat center/cover;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hiring {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #fdb6b6;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cont {
+  margin: 2em 3em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+article {
+  border: 2px solid red;
+  width: 90%;
+}
+article div h3 {
+  font-size: 2em;
+}
+article p {
+  width: 50%;
+}
+article div {
+  margin: 0 3em;
+}
+article img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  font-size: 0.9rem;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 237px;
+    justify-content: center;
+}
+
+footer img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  article {
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hiring {
+    width: 70px;
+    height: 70px;
+    font-size: 0.8rem;
+  }
+
+  .hero-images img {
+    width: 60px;
+    height: 90px;
+  }
+}
